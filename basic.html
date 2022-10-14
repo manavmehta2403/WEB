@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- CONTENT -->
+<body>
+    <h1>Headers</h1>
+    <p>paragragh no new line</p>
+    <!-- Every attribute provide line spacing-->
+    <pre>Filler code - keep the formatting
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta et autem aspernatur maiores suscipit repudiandae dolorum a eligendi ut eveniet, dolore recusandae reiciendis, porro illo rem quae aliquam esse rerum.
+    </pre>
+
+    <p><b>Old way bold</b><strong>New way bold</strong></p>
+    <p><i>Old way itallic</i><em>New way itallic</em></p>
+
+    <!-- Self closing tag no end tags-->
+    <!-- Attributes are the element optional parameters -->
+    <img src="missing.png" alt="No image" />
+
+    <br/>
+    <a href="new_page.html" >Click me</a>
+
+    <!-- Lists -> Ordered and Unordered -->
+    <h1> Ordered Lists </h1>
+    <ol type="i">
+        <li> First </li>
+        <li> Second </li>
+    </ol>
+
+    <ul type="block">
+        <li>Item 1</li>
+        <li> Item 2 
+            <ol> 
+                <li> This worked </li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- Divs and spans to make the groups of elements for basically for CSS -->
+        <!-- Span is used to put CSS in line -->
+    <div> <!-- it make sense they have class attribute -->
+        <h1> Group one</h1>
+        <p> Part of <span> the </span> group one</p>
+    </div>
+
+
+    <table border="1">
+        <thead>
+            <th> Name </th>
+            <th> Class </th>
+            <th> Marks </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Raj</td>
+                <td> 10 </td>
+                <td> 90</td>
+            </tr>
+            <tr>
+                <td>Taj</td>
+                <td> 09 </td>
+                <td> 100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td colspan="2">Sum</td>
+              <td>190</td>
+            </tr>
+          </tfoot>
+    </table>
+
+    <!-- forms --> <!-- it make sense they have class action and method attribute -->
+    <form class="form" action="new_page.html" method="get">
+        <h1> Login </h1>
+        <h3> Please input username and password </h3>
+        <label for="user">Enter mail: </label> <!--for must be alin with id-->
+        <input id="user" type="email" name="usermail" value="" placeholder="username" required/>
+        <input type="password" name="pass" value="" placeholder="PASSWORD" required/>
+        <input type="submit" value="Click Me"/>
+        <input type="color" value="red"/>
+        <input type="text" name="txt" value="text"/>
+        <textarea name="txtarea" value="textarea"></textarea>
+        
+        <br/>
+        <hr/>
+        <label for="NRI"> Are you NRI?: </label>
+        <input id="NRI" type="radio" name="citizenType" value="Yes">
+        <input id="NRI" type="radio" name="citizenType" value="No">
+
+        <label for="Rate">Rating</label>
+        <select  id="Rate" name="stars">
+            <option value="1">Good</option>
+            <option value="2">Average</option>
+            <option value="3">Bad</option>
+        </select>
+
+    </form>
+</body>
+</html>

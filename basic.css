@@ -1,0 +1,105 @@
+/* Body */
+body
+{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+
+.material-symbols-outlined 
+{
+    color: white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+h1
+{
+    color: orange;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3
+{
+    color: #089549;
+    font-size: 0.6em;
+}
+
+li
+{
+    color: violet;
+}
+
+
+
+div
+{
+    background: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    border-width: thick;
+    border-color: blueviolet;
+    border-style: groove;
+}
+
+span
+{
+    color: rgb(100, 194, 162);
+}
+
+.first_div_class
+{
+    color: rgb(28, 211, 211);
+}
+
+.second_div_class
+{
+    color: rgb(255, 145, 0);
+}
+
+#singledout
+{
+    color: bisque;
+}
+
+/* one after the h3 ul */
+/*Adjacent sibling: Elements that are next to each other*/
+h3 + ul
+{
+    border: 4px dotted purple
+}
+
+/* any tag inside one this */
+/*Descendants*/
+li a
+{
+    color:  orange;
+}
+
+/* selecting tag attribute */
+/*Attributes*/S
+li a[href="www.npr.org"]{
+    color: red;
+    border: 5px solid orange;
+  }
+  
+
+  li{
+    color: red;
+  }
+  
+  .TopItems{
+    color: blue;
+  }
+  
+  #two{
+    border: 2px solid orange;
+  }
+
